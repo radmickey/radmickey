@@ -1,4 +1,14 @@
-### Hi there 👋
+### [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hi+there+👋)](https://git.io/typing-svg)
+
+* 👋 My name is Misha. I'm from Russia
+* 👨🏻‍💻 Software Engineering student in ITMO University in Saint-Petersburg, Russia.
+* 💻 Software Engineer at Yandex (December 2023 - present)
+* 💻 Ex-SWE intern at Yandex (September 2023 - December 2023)
+* 📫 How to reach me: `radionov.mik@gmail.com` or `@radmickey` in Telegram
+* 🌚 My LinkedIn: [radmickey](https://www.linkedin.com/in/radmickey/)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=radmickey&theme=monokai)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=radmickey&theme=monokai)![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=radmickey&theme=monokai)
 
 <!--
 **radmickey/radmickey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
