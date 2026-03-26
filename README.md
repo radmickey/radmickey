@@ -1,26 +1,13 @@
-### [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hi+there+👋)](https://git.io/typing-svg)
+![](banner_1.svg)
 
-* 👋 My name is Misha. I'm from Russia
-* 👨🏻‍💻 Software Engineering student in ITMO University in Saint-Petersburg, Russia.
-* 💻 Software Engineer at Yandex (December 2023 - present)
-* 💻 Ex-SWE intern at Yandex (September 2023 - December 2023)
-* 📫 How to reach me: `radionov.mik@gmail.com` or `@radmickey` in Telegram
-* 🌚 My LinkedIn: [radmickey](https://www.linkedin.com/in/radmickey/)
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-radmickey-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/radmickey)
+[![Telegram](https://img.shields.io/badge/Telegram-@radmickey-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/radmickey)
+[![Email](https://img.shields.io/badge/Email-radionov.mik@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:radionov.mik@gmail.com)
+
+---
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=radmickey&theme=monokai)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=radmickey&theme=monokai)![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=radmickey&theme=monokai)
-
-<!--
-**radmickey/radmickey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=radmickey&theme=monokai)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=radmickey&theme=monokai)
