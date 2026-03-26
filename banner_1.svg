@@ -1,0 +1,139 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #020817; }
+      .border-rect { fill: none; stroke: #1a3a5c; stroke-width: 1; }
+      .name { font-family: 'Courier New', monospace; font-size: 24px; font-weight: 700; fill: #ffffff; letter-spacing: 4px; }
+      .tagline { font-family: 'Courier New', monospace; font-size: 12px; fill: #00d4ff; letter-spacing: 2px; }
+      .location { font-family: 'Courier New', monospace; font-size: 10px; fill: #4a6080; letter-spacing: 1px; }
+      .tag { font-family: 'Courier New', monospace; font-size: 10px; fill: #c8d8e8; }
+      .tag-bg { fill: #0a1628; stroke: #1a3a5c; stroke-width: 0.5; }
+      .dot { fill: #00d4ff; }
+      .avatar-bg { fill: #0a1628; stroke: #00d4ff; stroke-width: 1.5; }
+      .avatar-text { font-family: 'Courier New', monospace; font-size: 16px; font-weight: 700; fill: #ffffff; }
+      .divider-line { stroke: #1a3a5c; stroke-width: 0.5; }
+      .highlight { font-family: 'Courier New', monospace; font-size: 10px; fill: #c8d8e8; }
+      .section-label { font-family: 'Courier New', monospace; font-size: 10px; fill: #00d4ff; letter-spacing: 2px; }
+      .coords { font-family: 'Courier New', monospace; font-size: 9px; fill: #2a4060; letter-spacing: 1px; }
+
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .s1 { animation-delay: 0s; animation-duration: 2.5s; }
+      .s2 { animation-delay: -1s; animation-duration: 3.2s; }
+      .s3 { animation-delay: -0.5s; animation-duration: 4s; }
+      .s4 { animation-delay: -2s; animation-duration: 2.8s; }
+      .s5 { animation-delay: -1.5s; animation-duration: 3.5s; }
+      .s6 { animation-delay: -0.8s; animation-duration: 2.2s; }
+      .s7 { animation-delay: -2.5s; animation-duration: 3.8s; }
+      .s8 { animation-delay: -1.2s; animation-duration: 2.6s; }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.85; }
+      }
+      .scan { animation: scan 8s linear infinite; }
+      @keyframes scan {
+        0%   { transform: translateY(0px); opacity: 0; }
+        5%   { opacity: 0.12; }
+        95%  { opacity: 0.12; }
+        100% { transform: translateY(220px); opacity: 0; }
+      }
+      .avatar-ring { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.65; }
+      }
+      .fi1 { animation: fadein 0.8s ease 0s forwards; opacity: 0; }
+      .fi2 { animation: fadein 0.8s ease 0.25s forwards; opacity: 0; }
+      .fi3 { animation: fadein 0.8s ease 0.5s forwards; opacity: 0; }
+      .fi4 { animation: fadein 0.8s ease 0.75s forwards; opacity: 0; }
+      @keyframes fadein { to { opacity: 1; } }
+    </style>
+    <clipPath id="clip">
+      <rect width="1000" height="220" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="220" class="bg"/>
+
+    <circle class="star s1" cx="40"  cy="15"  r="1.2"/>
+    <circle class="star s2" cx="130" cy="40"  r="0.8"/>
+    <circle class="star s3" cx="220" cy="10"  r="1.0"/>
+    <circle class="star s4" cx="370" cy="28"  r="0.7"/>
+    <circle class="star s5" cx="560" cy="8"   r="1.1"/>
+    <circle class="star s6" cx="700" cy="22"  r="0.9"/>
+    <circle class="star s7" cx="830" cy="12"  r="1.3"/>
+    <circle class="star s8" cx="950" cy="35"  r="0.7"/>
+    <circle class="star s3" cx="60"  cy="200" r="0.9"/>
+    <circle class="star s1" cx="200" cy="210" r="1.0"/>
+    <circle class="star s5" cx="450" cy="205" r="0.8"/>
+    <circle class="star s7" cx="750" cy="208" r="1.1"/>
+    <circle class="star s2" cx="880" cy="195" r="0.7"/>
+    <circle class="star s4" cx="620" cy="215" r="0.9"/>
+
+    <rect class="scan" x="0" y="0" width="1000" height="1.5" fill="#00d4ff"/>
+    <rect x="0.5" y="0.5" width="999" height="219" rx="11.5" class="border-rect"/>
+
+    <!-- Avatar -->
+    <g class="avatar-ring fi1">
+      <circle cx="76" cy="110" r="42" class="avatar-bg"/>
+      <text x="76" y="117" text-anchor="middle" class="avatar-text">MR</text>
+    </g>
+
+    <line x1="138" y1="20" x2="138" y2="200" class="divider-line"/>
+
+    <!-- Left block -->
+    <g class="fi2">
+      <text x="158" y="76" class="name">MIKHAIL RADIONOV</text>
+      <text x="160" y="98" class="tagline">// backend engineer · systems architect</text>
+      <text x="160" y="116" class="location">▲ Naples, IT  ·  Saint Petersburg, RU</text>
+    </g>
+
+    <!-- Tags -->
+    <g class="fi3">
+      <rect x="158" y="128" width="38" height="17" rx="3" class="tag-bg"/>
+      <text x="177" y="140" text-anchor="middle" class="tag">Java</text>
+
+      <rect x="202" y="128" width="30" height="17" rx="3" class="tag-bg"/>
+      <text x="217" y="140" text-anchor="middle" class="tag">Go</text>
+
+      <rect x="238" y="128" width="34" height="17" rx="3" class="tag-bg"/>
+      <text x="255" y="140" text-anchor="middle" class="tag">C++</text>
+
+      <rect x="278" y="128" width="70" height="17" rx="3" class="tag-bg"/>
+      <text x="313" y="140" text-anchor="middle" class="tag">Kubernetes</text>
+
+      <rect x="354" y="128" width="70" height="17" rx="3" class="tag-bg"/>
+      <text x="389" y="140" text-anchor="middle" class="tag">PostgreSQL</text>
+
+      <rect x="430" y="128" width="42" height="17" rx="3" class="tag-bg"/>
+      <text x="451" y="140" text-anchor="middle" class="tag">Redis</text>
+
+      <rect x="478" y="128" width="36" height="17" rx="3" class="tag-bg"/>
+      <text x="496" y="140" text-anchor="middle" class="tag">gRPC</text>
+    </g>
+
+    <line x1="535" y1="20" x2="535" y2="200" class="divider-line"/>
+
+    <!-- Right block: highlights from resume -->
+    <g class="fi4">
+      <text x="555" y="46" class="section-label">[ highlights ]</text>
+
+      <circle cx="562" cy="66" r="2.5" class="dot"/>
+      <text x="574" y="70" class="highlight">Led ML-powered medical specialisation routing, A to Z</text>
+
+      <circle cx="562" cy="91" r="2.5" class="dot"/>
+      <text x="574" y="95" class="highlight">3rd-party booking API integration — 2–3× conversion lift</text>
+
+      <circle cx="562" cy="116" r="2.5" class="dot"/>
+      <text x="574" y="120" class="highlight">Built CI/CD pipelines from scratch, automated releases</text>
+
+      <circle cx="562" cy="141" r="2.5" class="dot"/>
+      <text x="574" y="145" class="highlight">9% efficiency gain on perf-critical paths — STC</text>
+
+      <circle cx="562" cy="166" r="2.5" class="dot"/>
+      <text x="574" y="170" class="highlight">Teaching C++ to 75 undergrads @ ITMO University</text>
+    </g>
+
+    <text x="985" y="210" text-anchor="end" class="coords">ITMO-2026 · SWE-2023↗</text>
+  </g>
+</svg>
